@@ -17,6 +17,8 @@ The engine uses a similarity score to provide recommendations. It uses the attra
 ## Validation
 
 K-means custering was used to check that cities being returned as recommendations were being scored correctly.
+![Silohouette Coefficient](silohouette_coefficient.png)
+
 
 ## Going Further
 
