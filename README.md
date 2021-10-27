@@ -14,6 +14,10 @@ It was difficult to find a data set with information that I wanted and so I keye
 
 The engine uses a similarity score to provide recommendations. It uses the attraction data for the place specified and compares it to the attraction data for all of the places in the data set. It then returns the 5 places most like the input as a recommendation.
 
+## Validation
+
+K-means custering was used to check that cities being returned as recommendations were being scored correctly.
+
 ## Going Further
 
 Things that might make this engine even better:
