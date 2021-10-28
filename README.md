@@ -8,7 +8,25 @@ For my capstone project in the Digital Futures Academy (Data Science stream), I 
 
 ## Data
 
-It was difficult to find a data set with information that I wanted and so I keyed this in manually. I took the list of cities in England from the National Statistics website and paired this with names, decriptions and ratings of 9 attractions. Attraction data was taken from the Google Travel website. Ultimately I only used the names an descriptions in the model as the ratings were not useful.
+It was difficult to find a data set with information that I wanted and so I keyed this in manually. I took the list of cities in England from the National Statistics website and paired this with names, decriptions and ratings of 9 attractions. Attraction data was taken from the Google Travel website. Ultimately I only used the names and descriptions in the model as the other columns of data had a few problems.
+
+### Issues with the data
+
+- Some attractions did not have any ratings or reviews and it did not seem right to impute these
+- The majority of the ratings were over 4 stars. For a simple recommendation engine, it was asier to not use these rather than find a way to incorporate them
+- The tags were almost exactly the same for every city. There were 9 blanks and without knowing exactly how the tags were designated, I could not impute these.
+
+## Preprocessing
+
+### Original
+
+Two vital columns were created.
+
+### Updated
+
+stopwrds
+TextBlob
+na and ' '
 
 ## Model
 
@@ -16,9 +34,18 @@ The engine uses a similarity score to provide recommendations. It uses the attra
 
 ## Validation
 
-K-means custering was used to check that cities being returned as recommendations were being scored correctly.
-![Silohouette Coefficient](silohouette_coefficient.png)
+K-means custering was used to check that cities being returned as recommendations were being scored correctly. K-means was chosen for its simplicity.
+![Silhouette Coefficient 2](silhouette_coefficient.png "New Silhouette Coefficient")
+![Inertia 2](inertia.png)
+The k-value chose was 3. Despite the silhouette and inertia not showing any discernable kinks at 3, using clusters of 4 and 5 meant that a handful of citties were being separated into clusters and that was not desireable for this model.
 
+Below are the results of one of the tests on the model.
+![Testing the model](model_validation.png "New Inertia")
+4Four of the cities returned in the results can be found in cluster 2 with Solihull. The exception being Conventry which is in cluster 0.
+
+## The Engine at Work
+
+![Where will we go Demo](capstone_demo.mp4 "Where will we go? Demonstration")
 
 ## Going Further
 
@@ -30,3 +57,11 @@ Things that might make this engine even better:
 - Data from other parts of the United Kingdom (Scotland, Wales & Northern Ireland)
 - Use of geo data so that distance can be used as a parameter
 - More choices for when no keyword is specified eg. 'na', 'N/a' and ''
+
+## Capstone Presentation
+
+The original Capstone presentation can be found here:
+[link](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Presentation")
+
+You can also access the original slide deck here:
+[link](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Slide Deck")
