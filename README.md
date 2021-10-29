@@ -20,17 +20,24 @@ It was difficult to find a data set with information that I wanted and so I keye
 
 ### Original
 
-Two vital columns were created.
+- Created vital columns -> simple_id and keywords
+- Created stopwords list
 
 ### Updated
 
-stopwrds
-TextBlob
-na and ' '
+- Created stopwrds list
+- Utilised TextBlob for nlp on keywords
 
 ## Model
 
+### Original
+
 The engine uses a similarity score to provide recommendations. It uses the attraction data for the place specified and compares it to the attraction data for all of the places in the data set. It then returns the 5 places most like the input as a recommendation.
+
+### Updated
+
+- Added more options for when no keyword is specified -> na, ' '
+- Changed stop words in Count Vectorizer to list defined in Preprocessing
 
 ## Validation
 
@@ -41,11 +48,12 @@ The k-value chose was 3. Despite the silhouette and inertia not showing any disc
 
 Below are the results of one of the tests on the model.
 ![Testing the model](model_validation.png "New Inertia")
-4Four of the cities returned in the results can be found in cluster 2 with Solihull. The exception being Conventry which is in cluster 0.
+
+Four of the cities returned in the results can be found in cluster 2 with Solihull. The exception being Conventry which is in cluster 0.
 
 ## The Engine at Work
 
-![Where will we go Demo](capstone_demo.mp4 "Where will we go? Demonstration")
+![Where will we go Demo](https://github.com/YaszMoon/DF-Capstone/blob/main/capstone_demo.mp4 "Where will we go? Demonstration")
 
 ## Going Further
 
@@ -61,7 +69,7 @@ Things that might make this engine even better:
 ## Capstone Presentation
 
 The original Capstone presentation can be found here:
-[link](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Presentation")
+[![Where will we go? Presentation]({http://i3.ytimg.com/vi/arswHdnvzKU/maxresdefault.jpg})]({https://www.youtube.com/watch?v=arswHdnvzKU} "Where will we go? Presentation")
 
 You can also access the original slide deck here:
-[link](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Slide Deck")
+[![Where will we go? Slide Deck](presentation_image.png)]({https://www.canva.com/design/DAEiPmroi70/OwbYTGj-oDw4gARrxZwC5A/view?utm_content=DAEiPmroi70&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent} "Where will we go? Slide Deck")
