@@ -53,7 +53,7 @@ Four of the cities returned in the results can be found in cluster 2 with Solihu
 
 ## The Engine at Work
 
-![Where will we go Demo](https://github.com/YaszMoon/DF-Capstone/blob/main/capstone_demo.mp4 "Where will we go? Demonstration")
+![Where will we go Demo](capstone_demo.gif "Where will we go? Demonstration")
 
 ## Going Further
 
@@ -68,8 +68,8 @@ Things that might make this engine even better:
 
 ## Capstone Presentation
 
-The original Capstone presentation can be found here:
-[![Where will we go? Presentation](http://i3.ytimg.com/vi/arswHdnvzKU/maxresdefault.jpg)](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Presentation")
+You can view the original slide deck here:
+![Where will we go? Slide Deck](https://www.canva.com/design/DAEiPmroi70/OwbYTGj-oDw4gARrxZwC5A/view?utm_content=DAEiPmroi70&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent "Where will we go? Slide Deck")
 
-You can also access the original slide deck here:
-[![Where will we go? Slide Deck](presentation_image.png)](https://www.canva.com/design/DAEiPmroi70/OwbYTGj-oDw4gARrxZwC5A/view?utm_content=DAEiPmroi70&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent "Where will we go? Slide Deck")
+The original Capstone presentation can be found here:
+[![Where will we go? Presentation](presentation_image.png)](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Presentation")
