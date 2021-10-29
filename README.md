@@ -69,7 +69,7 @@ Things that might make this engine even better:
 ## Capstone Presentation
 
 The original Capstone presentation can be found here:
-[![Where will we go? Presentation]({http://i3.ytimg.com/vi/arswHdnvzKU/maxresdefault.jpg})]({https://www.youtube.com/watch?v=arswHdnvzKU} "Where will we go? Presentation")
+[![Where will we go? Presentation](http://i3.ytimg.com/vi/arswHdnvzKU/maxresdefault.jpg)](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Presentation")
 
 You can also access the original slide deck here:
-[![Where will we go? Slide Deck](presentation_image.png)]({https://www.canva.com/design/DAEiPmroi70/OwbYTGj-oDw4gARrxZwC5A/view?utm_content=DAEiPmroi70&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent} "Where will we go? Slide Deck")
+[![Where will we go? Slide Deck](presentation_image.png)](https://www.canva.com/design/DAEiPmroi70/OwbYTGj-oDw4gARrxZwC5A/view?utm_content=DAEiPmroi70&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent "Where will we go? Slide Deck")
