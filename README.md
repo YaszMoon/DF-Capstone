@@ -21,7 +21,6 @@ It was difficult to find a data set with information that I wanted and so I keye
 ### Original
 
 - Created vital columns -> simple_id and keywords
-- Created stopwords list
 
 ### Updated
 
@@ -41,35 +40,34 @@ The engine uses a similarity score to provide recommendations. It uses the attra
 
 ## Validation
 
-K-means custering was used to check that cities being returned as recommendations were being scored correctly. K-means was chosen for its simplicity.
-![Silhouette Coefficient 2](silhouette_coefficient.png "New Silhouette Coefficient")
-![Inertia 2](inertia.png)
-The k-value chose was 3. Despite the silhouette and inertia not showing any discernable kinks at 3, using clusters of 4 and 5 meant that a handful of citties were being separated into clusters and that was not desireable for this model.
+K-means clustering was used to check that cities being returned as recommendations were being scored correctly. K-means was chosen for its simplicity.
+
+<img src="silhouette_coefficient.png" alt="New Silhouette Coefficient" title="New Silhouette Coefficient" width="750"/>
+<img src="inertia.png" alt="New Inertia" title="New Inertia" width="750"/>
+
+The k-value chosen was 3. Despite the silhouette and inertia not showing any discernable kinks at 3, using clusters of 4 and 5 meant that a handful of citties were being separated into clusters and that was not desireable for this model.
 
 Below are the results of one of the tests on the model.
-![Testing the model](model_validation.png "New Inertia")
+![Testing the model](model_validation.png "Model Test")
 
 Four of the cities returned in the results can be found in cluster 2 with Solihull. The exception being Conventry which is in cluster 0.
 
 ## The Engine at Work
 
-![Where will we go Demo](capstone_demo.gif "Where will we go? Demonstration")
+<img src="capstone_demo.gif" alt="Where will we go? Demonstration" title="Where will we go? Demonstration" width="690"/>
 
 ## Going Further
 
 Things that might make this engine even better:
 
-- Natural language processing tools like lemmatization and stemming
-- Further data cleaning to remove nulls
 - More data eg. more attractions for each city or ratings for each attraction or city
 - Data from other parts of the United Kingdom (Scotland, Wales & Northern Ireland)
 - Use of geo data so that distance can be used as a parameter
-- More choices for when no keyword is specified eg. 'na', 'N/a' and ''
 
 ## Capstone Presentation
 
-You can view the original slide deck here:
-![Where will we go? Slide Deck](https://www.canva.com/design/DAEiPmroi70/OwbYTGj-oDw4gARrxZwC5A/view?utm_content=DAEiPmroi70&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent "Where will we go? Slide Deck")
+You can view the original slide deck here: 
+[Where will we go? Slide Deck](https://www.canva.com/design/DAEiPmroi70/OwbYTGj-oDw4gARrxZwC5A/view?utm_content=DAEiPmroi70&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent "Where will we go? Slide Deck")
 
-The original Capstone presentation can be found here:
+The original capstone presentation video can be found here:
 [![Where will we go? Presentation](presentation_image.png)](https://www.youtube.com/watch?v=arswHdnvzKU "Where will we go? Presentation")
