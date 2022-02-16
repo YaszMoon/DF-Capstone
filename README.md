@@ -63,6 +63,7 @@ Things that might make this engine even better:
 - More data eg. more attractions for each city or ratings for each attraction or city
 - Data from other parts of the United Kingdom (Scotland, Wales & Northern Ireland)
 - Use of geo data so that distance can be used as a parameter
+- Ability to indicate a country or keyword that should not be included in the results
 
 ## Capstone Presentation
 
